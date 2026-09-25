@@ -4,147 +4,248 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Robert Jordan's computing and IT portfolio, documenting practical learning in web development, cloud infrastructure and cybersecurity.">
-    <title>Robert Jordan | Computing & IT Student Portfolio</title>
-    <link rel="stylesheet" href="style-revised.css">
+    <meta name="theme-color" content="#0f172a">
+    <title>Robert Jordan | Computing &amp; IT Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
     <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <nav class="site-navigation" aria-label="Main navigation">
+        <div class="container navigation-inner">
+            <a class="brand" href="#top" aria-label="Robert Jordan, home">RJ</a>
+            <ul class="navigation-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <header class="site-header">
         <div class="container hero">
-            <p class="eyebrow">Technical portfolio</p>
-            <h1>Robert Jordan</h1>
-            <p class="subtitle">Computing &amp; IT Student | Technical Support and Operations Professional</p>
-            <p class="location">Derry/Londonderry, Northern Ireland</p>
+            <div class="hero-content">
+                <p class="eyebrow">Technical portfolio</p>
+                <h1>Robert Jordan</h1>
+                <p class="subtitle">Computing &amp; IT Student | Technical Support and Operations Professional</p>
+                <p class="hero-summary">Former broadband support adviser and experienced operations professional, now building practical cloud and cybersecurity skills through Open University study and documented technical projects.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">
+                        <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#folder-code"></use></svg>
+                        View projects
+                    </a>
+                    <a class="button button-secondary" href="Robert-Jordan-CV-Revised.pdf" download>
+                        <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#download"></use></svg>
+                        Download CV
+                    </a>
+                </div>
+                <div class="profile-links" aria-label="Professional profiles">
+                    <a href="https://github.com/Robbiej83" target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#github"></use></svg>
+                        GitHub
+                    </a>
+                    <!-- Replace the URL below with your real public LinkedIn profile. -->
+                    <a href="www.linkedin.com/in/rob-jordan-33a1531a2" target="_blank" rel="noopener noreferrer">
+                        <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#linkedin"></use></svg>
+                        LinkedIn
+                    </a>
+                    <a href="mailto:robjordan@gmx.com">
+                        <svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#mail"></use></svg>
+                        Email
+                    </a>
+                </div>
+            </div>
 
-            <nav class="profile-links" aria-label="Profile links">
-                <a href="https://github.com/Robbiej83" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <!-- Add your current LinkedIn profile URL below, then remove hidden.
-                <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                -->
-                <a href="mailto:robjordan@gmx.com">Email</a>
-                <a class="button" href="Robert-Jordan-CV-Revised.pdf" download>Download CV (PDF)</a>
-            </nav>
+            <aside class="hero-panel" aria-labelledby="focus-heading">
+                <div class="terminal-bar" aria-hidden="true">
+                    <span></span><span></span><span></span>
+                </div>
+                <div class="terminal-content">
+                    <p class="terminal-prompt">robert@portfolio:~$ current-focus</p>
+                    <h2 id="focus-heading">Current development focus</h2>
+                    <ul class="focus-list">
+                        <li><span>01</span> HTML, CSS and accessibility</li>
+                        <li><span>02</span> Git and GitHub workflows</li>
+                        <li><span>03</span> Linux and networking</li>
+                        <li><span>04</span> Cloud infrastructure</li>
+                        <li><span>05</span> Cybersecurity foundations</li>
+                    </ul>
+                    <p class="terminal-status"><span aria-hidden="true"></span> Building in public</p>
+                </div>
+            </aside>
         </div>
     </header>
 
     <main id="main-content" class="container">
-        <section aria-labelledby="profile-heading">
-            <h2 id="profile-heading">Professional profile</h2>
-            <p>Experienced operations and customer-support professional beginning a BSc (Hons) Computing &amp; IT with The Open University in October 2026. Previous experience includes broadband troubleshooting, physical security, contract management and self-employed delivery work.</p>
-            <p>I am developing practical skills in web development, Git, Linux, networking and programming, with a long-term focus on cloud infrastructure and cybersecurity. This site documents completed work, current learning and planned projects without presenting work in progress as finished experience.</p>
+        <section id="about" class="content-section intro-section" aria-labelledby="about-heading">
+            <div class="section-heading">
+                <svg class="section-icon" aria-hidden="true"><use href="assets/icons/icons.svg#user"></use></svg>
+                <div>
+                    <p class="section-kicker">Background</p>
+                    <h2 id="about-heading">About me</h2>
+                </div>
+            </div>
+            <div class="two-column-copy">
+                <p>Experienced operations and customer-support professional beginning a BSc (Hons) Computing &amp; IT with The Open University in October 2026. Previous experience includes broadband troubleshooting, physical security, contract management and self-employed delivery work.</p>
+                <p>I am developing practical skills in web development, Git, Linux, networking and programming, with a long-term focus on cloud infrastructure and cybersecurity. This portfolio separates completed work from current and planned projects so that every claim can be supported by evidence.</p>
+            </div>
         </section>
 
-        <section aria-labelledby="skills-heading">
-            <h2 id="skills-heading">Current skills and experience</h2>
+        <section id="skills" class="content-section" aria-labelledby="skills-heading">
+            <div class="section-heading">
+                <svg class="section-icon" aria-hidden="true"><use href="assets/icons/icons.svg#terminal"></use></svg>
+                <div>
+                    <p class="section-kicker">Capabilities</p>
+                    <h2 id="skills-heading">Current skills and experience</h2>
+                </div>
+            </div>
             <div class="card-grid">
-                <article class="card">
+                <article class="skill-card">
+                    <svg class="card-icon" aria-hidden="true"><use href="assets/icons/icons.svg#code"></use></svg>
                     <h3>Web and source control</h3>
                     <p>HTML5, CSS3, VS Code, Git, GitHub, GitHub Desktop and GitHub Pages.</p>
                 </article>
-                <article class="card">
+                <article class="skill-card">
+                    <svg class="card-icon" aria-hidden="true"><use href="assets/icons/icons.svg#wifi"></use></svg>
                     <h3>Technical support</h3>
-                    <p>Residential broadband diagnostics, router configuration, Wi-Fi troubleshooting, internal wiring checks and fault escalation using Merlin.</p>
+                    <p>Broadband diagnostics, router configuration, Wi-Fi troubleshooting, wiring checks and fault escalation using Merlin.</p>
                 </article>
-                <article class="card">
+                <article class="skill-card">
+                    <svg class="card-icon" aria-hidden="true"><use href="assets/icons/icons.svg#shield"></use></svg>
                     <h3>Security and operations</h3>
-                    <p>Access control, incident handling, risk awareness, accurate record keeping, route planning and calm decision-making under pressure.</p>
+                    <p>Access control, incident handling, risk awareness, accurate records and calm decisions under pressure.</p>
                 </article>
-                <article class="card">
+                <article class="skill-card">
+                    <svg class="card-icon" aria-hidden="true"><use href="assets/icons/icons.svg#briefcase"></use></svg>
                     <h3>Business administration</h3>
                     <p>Self-employment records, mileage and expense tracking, invoicing, stock control, Sage and Microsoft 365.</p>
                 </article>
             </div>
         </section>
 
-        <section aria-labelledby="projects-heading">
-            <div class="section-heading-row">
-                <h2 id="projects-heading">Projects and technical learning</h2>
-                <span class="section-note">Evidence first</span>
+        <section id="projects" class="content-section" aria-labelledby="projects-heading">
+            <div class="section-heading section-heading-split">
+                <div class="section-heading-group">
+                    <svg class="section-icon" aria-hidden="true"><use href="assets/icons/icons.svg#folder-code"></use></svg>
+                    <div>
+                        <p class="section-kicker">Evidence first</p>
+                        <h2 id="projects-heading">Projects and technical learning</h2>
+                    </div>
+                </div>
+                <p class="section-note">Completed, active and planned work</p>
             </div>
 
-            <article class="project-card">
-                <div class="project-heading">
-                    <h3>Personal technical portfolio</h3>
-                    <span class="status status-complete">Version 1 deployed</span>
+            <article class="project-card featured-project">
+                <div class="project-visual project-preview" role="img" aria-label="Stylised preview of Robert Jordan's portfolio website">
+                    <div class="browser-bar" aria-hidden="true"><span></span><span></span><span></span><p>robbiej83.github.io</p></div>
+                    <div class="preview-body" aria-hidden="true">
+                        <div class="preview-label">TECHNICAL PORTFOLIO</div>
+                        <div class="preview-title"></div>
+                        <div class="preview-subtitle"></div>
+                        <div class="preview-buttons"><span></span><span></span></div>
+                        <div class="preview-cards"><span></span><span></span><span></span></div>
+                    </div>
                 </div>
-                <p>Designed and deployed this responsive portfolio using semantic HTML5 and CSS3, with source control through Git and hosting through GitHub Pages.</p>
-                <ul>
-                    <li>Reusable CSS variables and responsive card layouts</li>
-                    <li>Keyboard focus styles, skip navigation and reduced-motion support</li>
-                    <li>Clear separation between completed and planned work</li>
-                </ul>
-                <p class="project-links"><a href="https://github.com/Robbiej83" target="_blank" rel="noopener noreferrer">View GitHub profile</a></p>
+                <div class="project-content">
+                    <div class="project-heading">
+                        <div>
+                            <p class="project-number">Project 001</p>
+                            <h3>Personal technical portfolio</h3>
+                        </div>
+                        <span class="status status-complete">Version 2 deployed</span>
+                    </div>
+                    <p>Designed and deployed a responsive portfolio using semantic HTML5 and CSS3, with source control through Git and hosting through GitHub Pages.</p>
+                    <ul class="project-points">
+                        <li>Reusable CSS variables and responsive layouts</li>
+                        <li>Keyboard focus, skip navigation and reduced-motion support</li>
+                        <li>Local SVG icon sprite with no JavaScript or external dependency</li>
+                    </ul>
+                    <ul class="technology-list" aria-label="Technologies used">
+                        <li>HTML5</li><li>CSS3</li><li>Git</li><li>GitHub Pages</li><li>SVG</li>
+                    </ul>
+                    <div class="project-actions">
+                        <a href="https://robbiej83.github.io/tech-portfolio/" target="_blank" rel="noopener noreferrer">Live site <span aria-hidden="true">↗</span></a>
+                        <a href="https://github.com/Robbiej83" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
             </article>
 
-            <article class="project-card">
-                <div class="project-heading">
-                    <h3>Oracle Cloud CV delivery</h3>
-                    <span class="status status-progress">In development</span>
-                </div>
-                <p>Testing a low-cost method of storing and serving the downloadable CV through Oracle Cloud Infrastructure. The final implementation will document access controls, link behaviour, availability and the distinction between a public portfolio document and genuinely private storage.</p>
-            </article>
+            <div class="project-grid">
+                <article class="project-card compact-project">
+                    <div class="compact-project-icon"><svg aria-hidden="true"><use href="assets/icons/icons.svg#cloud"></use></svg></div>
+                    <div class="project-heading">
+                        <div><p class="project-number">Project 002</p><h3>Oracle Cloud CV delivery</h3></div>
+                        <span class="status status-progress">In development</span>
+                    </div>
+                    <p>Testing a low-cost method of storing and serving the downloadable CV through Oracle Cloud Infrastructure, with documented access controls, link behaviour and availability.</p>
+                    <ul class="technology-list" aria-label="Planned technologies"><li>Oracle Cloud</li><li>Object Storage</li><li>HTTPS</li></ul>
+                </article>
 
-            <article class="project-card">
-                <div class="project-heading">
-                    <h3>Secure private cloud storage lab</h3>
-                    <span class="status status-planned">Planned</span>
-                </div>
-                <p>A planned learning project using an open-source platform such as Nextcloud. The write-up will cover identity and access controls, encrypted traffic, host firewall rules, backup and recovery, monitoring and safe handling of secrets.</p>
-            </article>
+                <article class="project-card compact-project">
+                    <div class="compact-project-icon"><svg aria-hidden="true"><use href="assets/icons/icons.svg#database-lock"></use></svg></div>
+                    <div class="project-heading">
+                        <div><p class="project-number">Project 003</p><h3>Secure private cloud storage lab</h3></div>
+                        <span class="status status-planned">Planned</span>
+                    </div>
+                    <p>A learning project using an open-source platform such as Nextcloud, covering identity and access control, encrypted traffic, firewall rules, backup and recovery, monitoring and safe secret handling.</p>
+                    <ul class="technology-list" aria-label="Planned technologies"><li>Nextcloud</li><li>Linux</li><li>IAM</li><li>Backups</li></ul>
+                </article>
+            </div>
         </section>
 
-        <section aria-labelledby="experience-heading">
-            <h2 id="experience-heading">Professional experience</h2>
-
-            <article class="timeline-item">
-                <div>
-                    <h3>Self-Employed Delivery Driver</h3>
-                    <p class="meta">Just Eat and Uber Eats | 2021 - Present</p>
-                </div>
-                <p>Manage delivery work across multiple platforms, balancing route selection, deadlines, customer service, fuel use, vehicle costs and accurate self-employment records.</p>
-            </article>
-
-            <article class="timeline-item">
-                <div>
-                    <h3>Technical Customer Service Adviser</h3>
-                    <p class="meta">Sky Broadband contract, Firstsource Solutions Ltd. | January 2015 - February 2019</p>
-                </div>
-                <p>Diagnosed residential broadband and Wi-Fi faults, guided customers through router configuration and connectivity checks, recorded diagnostic information and escalated unresolved line or network faults.</p>
-            </article>
-
-            <article class="timeline-item">
-                <div>
-                    <h3>Earlier operations, security and technical experience</h3>
-                    <p class="meta">Pre-2015</p>
-                </div>
-                <p>Roles included physical security and incident response, contracts and operations management, hospitality, pipe fitting, computer engineering support and general operations.</p>
-            </article>
+        <section id="journey" class="content-section" aria-labelledby="journey-heading">
+            <div class="section-heading">
+                <svg class="section-icon" aria-hidden="true"><use href="assets/icons/icons.svg#route"></use></svg>
+                <div><p class="section-kicker">Progression</p><h2 id="journey-heading">Technical learning journey</h2></div>
+            </div>
+            <ol class="learning-timeline">
+                <li><time datetime="2001">2001</time><div><h3>BTEC National Diploma</h3><p>Completed foundational study in computer systems, Visual Basic, networking and diagnostics.</p></div></li>
+                <li><time datetime="2015">2015-2019</time><div><h3>Sky Broadband technical support</h3><p>Developed practical experience in residential networking, diagnosis and customer-facing fault resolution.</p></div></li>
+                <li><time datetime="2026-09">September 2026</time><div><h3>Portfolio deployed</h3><p>Built and published an accessible portfolio using HTML, CSS, Git and GitHub Pages.</p></div></li>
+                <li><time datetime="2026-10">October 2026</time><div><h3>Open University degree begins</h3><p>Stage 1 study through TM111, TM129 and TM112.</p></div></li>
+            </ol>
         </section>
 
-        <section aria-labelledby="education-heading">
-            <h2 id="education-heading">Education</h2>
-            <article class="education-item">
-                <h3>BSc (Hons) Computing &amp; IT</h3>
-                <p class="meta">The Open University | Starting October 2026</p>
-                <p>Registered Stage 1 modules: TM111, TM129 and TM112. Career focus: cloud infrastructure and cybersecurity.</p>
-            </article>
-            <article class="education-item">
-                <h3>BTEC National Diploma in Computer Studies</h3>
-                <p class="meta">Southampton City College | Completed 2001</p>
-                <p>Study included Windows systems, Microsoft Office, Visual Basic, networking and computer diagnostics.</p>
-            </article>
+        <section id="experience" class="content-section" aria-labelledby="experience-heading">
+            <div class="section-heading">
+                <svg class="section-icon" aria-hidden="true"><use href="assets/icons/icons.svg#briefcase"></use></svg>
+                <div><p class="section-kicker">Professional background</p><h2 id="experience-heading">Experience</h2></div>
+            </div>
+            <div class="experience-list">
+                <article class="experience-item"><div class="experience-date">2021 - Present</div><div><h3>Self-Employed Delivery Driver</h3><p class="meta">Just Eat and Uber Eats</p><p>Manage delivery work across multiple platforms, balancing route selection, deadlines, customer service, fuel use, vehicle costs and accurate self-employment records.</p></div></article>
+                <article class="experience-item"><div class="experience-date">2015 - 2019</div><div><h3>Technical Customer Service Adviser</h3><p class="meta">Sky Broadband contract, Firstsource Solutions Ltd.</p><p>Diagnosed residential broadband and Wi-Fi faults, guided customers through router configuration and connectivity checks, recorded diagnostic information and escalated unresolved faults.</p></div></article>
+                <article class="experience-item"><div class="experience-date">Pre-2015</div><div><h3>Operations, security and technical experience</h3><p class="meta">Multiple employers and contracts</p><p>Roles included physical security and incident response, contracts and operations management, hospitality, pipe fitting, computer engineering support and general operations.</p></div></article>
+            </div>
         </section>
 
-        <section aria-labelledby="contact-heading">
-            <h2 id="contact-heading">Contact</h2>
-            <p>For professional enquiries, email <a href="mailto:robjordan@gmx.com">robjordan@gmx.com</a> or connect through the profile links above.</p>
+        <section id="education" class="content-section" aria-labelledby="education-heading">
+            <div class="section-heading">
+                <svg class="section-icon" aria-hidden="true"><use href="assets/icons/icons.svg#graduation"></use></svg>
+                <div><p class="section-kicker">Formal learning</p><h2 id="education-heading">Education</h2></div>
+            </div>
+            <div class="education-grid">
+                <article class="education-card"><p class="education-year">Starting October 2026</p><h3>BSc (Hons) Computing &amp; IT</h3><p class="meta">The Open University</p><p>Registered Stage 1 modules: TM111, TM129 and TM112. Career focus: cloud infrastructure and cybersecurity.</p></article>
+                <article class="education-card"><p class="education-year">Completed 2001</p><h3>BTEC National Diploma in Computer Studies</h3><p class="meta">Southampton City College</p><p>Study included Windows systems, Microsoft Office, Visual Basic, networking and computer diagnostics.</p></article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+            <div>
+                <p class="section-kicker">Get in touch</p>
+                <h2 id="contact-heading">Interested in following the journey?</h2>
+                <p>I am documenting my transition into computing, cloud infrastructure and cybersecurity as I learn and build.</p>
+            </div>
+            <a class="button button-primary" href="mailto:robjordan@gmx.com"><svg class="icon" aria-hidden="true"><use href="assets/icons/icons.svg#mail"></use></svg>Email Robert</a>
         </section>
     </main>
 
     <footer>
-        <div class="container">
+        <div class="container footer-inner">
             <p>&copy; 2026 Robert Jordan. Built with HTML and CSS, versioned with Git and hosted on GitHub Pages.</p>
+            <a href="#top">Back to top ↑</a>
         </div>
     </footer>
 </body>
