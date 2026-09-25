@@ -1,0 +1,46 @@
+ROBERT JORDAN - PORTFOLIO UPDATE NOTES
+
+FILES
+- index-revised.html
+- style-revised.css
+- Robert-Jordan-CV-Revised.docx
+- Robert-Jordan-CV-Revised.pdf
+
+TO DEPLOY ON GITHUB PAGES
+1. Keep a backup of the current repository.
+2. Rename index-revised.html to index.html.
+3. Rename style-revised.css to style.css.
+4. Upload Robert-Jordan-CV-Revised.pdf to the repository root.
+5. Commit and push the four changed files.
+6. Test every link in a private browser window and on a phone.
+
+LINKEDIN
+The LinkedIn link is commented out because the exact profile URL was not supplied.
+In index.html, find the comment beginning "Add your current LinkedIn profile URL".
+Replace YOUR_LINKEDIN_URL with the real public profile URL and remove the comment markers.
+
+ORACLE CLOUD CV LINK
+The supplied page downloads the PDF from the GitHub Pages repository so it works immediately.
+When the Oracle Cloud URL is ready, replace:
+  href="Robert-Jordan-CV-Revised.pdf"
+with the final Oracle Object Storage URL.
+
+Important: a CV intended for recruiters is normally a public document. Do not describe the
+link as private or secure merely because it uses HTTPS. If using a time-limited or pre-authenticated
+Oracle URL, test expiry and renewal behaviour so the portfolio does not end up with a broken link.
+Never place Oracle credentials, API keys, private keys, tenancy identifiers or secrets in HTML,
+CSS, JavaScript or a public GitHub repository.
+
+PROJECT STATUS
+- Portfolio website: Version 1 deployed
+- Oracle Cloud CV delivery: In development
+- Private cloud storage lab: Planned
+Update these labels only when the relevant evidence exists.
+
+PRIVACY
+The public webpage omits the telephone number and full street address.
+The CV retains telephone and email details for applications but omits the street address.
+
+OU DATE
+The website and CV say "Starting October 2026". After the course begins, update this to
+"October 2026 - Present" and replace future-tense wording where appropriate.
